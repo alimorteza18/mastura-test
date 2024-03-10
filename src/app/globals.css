@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @media only screen and (max-width: 450px) {
+  body {
+    min-width: 650px;
+    margin: 0;
+  }
+} */
+
+* {
+  direction: rtl;
+  box-sizing: border-box;
+  font-family: 'Peyda';
+  overflow-x: hidden;
+}
+p{
+  font-weight: 300;
+}
+
+.bg-m-green {
+  background-color: rgba(59, 152, 105, 1);
+}
+.bl-gradient{
+  background: linear-gradient(270deg, #5BAAAA 0%, #9FD0D0 100%);
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: local('Peyda'),
+    local('Peyda'),
+    url('../../public/fonts/peydaWeb-light.woff2') format('woff2'),
+    url('../../public/fonts/peydaWeb-light.woff') format('woff'),
+    url('../../public/fonts/peyda-light.ttf') format('truetype');
+  font-weight: 300;
+  font-stretch: normal;
+  /*font-style: normal;*/
+}
+@font-face{
+  font-family: 'QuranTaha';
+  src: local('QuranTaha'),
+  local('QuranTaha'),
+  url('../../public/fonts/QuranTaha.ttf') format('truetype');
+  font-weight: 300;
+  font-stretch: normal;
+}
+
+/* @font-face{
+  font-family: 'peyda-light';
+  src: local('peyda-light'),
+  local('peyda-light'),
+  url('../../public/fonts/Peyda-Regular.ttf') format('truetype');
+}
+.peyda-light{
+  font-family: 'pyda-ligh';
+} */
+
+
+.quran-taha{
+  font-family: 'QuranTaha';
+}
+
+.gift-background {
+  background: linear-gradient(180deg, #308B5D 20%, rgba(48, 139, 93, 0) 91%);
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.6px);
+  -webkit-backdrop-filter: blur(1.6px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.bg-white-glass{
+  background: #FFFFFF4D;
+}
+.bg-gray{
+  background: #FFFFFFD9;
+}
+.gr-gradient{
+  background: linear-gradient(270deg, #46B07F 0%, #7BC363 100%);
+
+}
+
+.br-gradient{
+  background: linear-gradient(270deg, #D2BE8F 0%, #EBDAB4 100%);
+
+}
+
+.db-gradient{
+  background: linear-gradient(270deg, #226AD6 0%, #689EEE 100%);
+
+}
+
+.pr-gradient{
+  background: linear-gradient(270deg, #802EC1 0%, #BA95F8 100%);
+
+}
+
+#bg-gradient{
+  background-image: url('../../public/images/Gradient-bg.svg'),url('../../public/images/Planet.svg');
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-mobile{
+  background-image: url('../../public/images/bg-mobile.svg');
+  background-attachment: fixed;
+  background-position: center;
+}
